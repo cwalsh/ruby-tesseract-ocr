@@ -156,7 +156,7 @@ module BaseAPI
 
 		cpp.function %{
 			void read_config_file (TessBaseAPI* api, const char* filename, bool init_only) {
-				api->ReadConfigFile(filename, init_only);
+				api->ReadConfigFile(filename);
 			}
 		}
 
